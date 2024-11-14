@@ -20,8 +20,9 @@ main{
 header ul{
     display: flex;
     height: 10vh;
+    align-items: center;
     background-color:var(--color4) ;
-    opacity:1;
+    opacity:0.7;
     justify-content: space-around;
     padding: 20px;
 }
@@ -41,6 +42,21 @@ body{
     margin: 0;
     padding: 0;
 }
+header ul li a{
+    transform: translateY(0);
+    transition: 0.5s ease-in-out;
+}
+header ul li a:hover{
+    background-color: var(--color2);
+    color:var(--color4);
+    /* margin: 15px; */
+    padding:4px 6px;
+    transform: scale(0.7);
+    transform: translateY(-200px);
+    text-shadow:4px -10px 2px var(--color1) ;
+    border:1px solid var(--color4);
+    border-radius: 12px;
+}
 #accueil{
     display: grid;
      padding: 30px 30px ; 
@@ -48,12 +64,28 @@ body{
 }
 h1{
     background-color: var(--color4);
-    display: inline;
+    /* display: inline; */
     font-size: 1.9rem;
     margin-right: 20px;
+    transform: translateX(0);
+    transition: 1s ease-in-out;
     border-radius: 15px;
+    /* animation:animation 0.25s infinite; */
     padding: 5px 20px;
     color:var(--color2);
+}
+
+h1:hover{
+    z-index: -1;
+    
+    
+    background-color: var(--color2);
+    color:var(--color4);
+   transform: scale(0.7);
+   transform: translateX(100px);
+    text-shadow:4px -10px 2px var(--color1) ;
+    border:1px solid var(--color4);
+    border-radius: 12px;
 }
 #accueil img{
     height: 250px;
