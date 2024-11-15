@@ -81,23 +81,66 @@ li{
 }
 .animation-photo{
    display: flex;
+   position:relative;
    justify-content: space-around;
-   /* gap:10px; */
-        animation:animation linear 1s infinite
+ animation:animation linear 5s infinite;
     
 }
 .circle{
 
     background-color: var(--color4);
-    height: 50px;
-    width: 50px;
+    height: 40px;
+  
+    width: 40px;
     border-radius: 50%;
   
+}
+.circle1{
+    position:absolute;
+    left:-15px;
+    top:-270px;
+}
+.circle2{
+    position:absolute;
+    left:-10px;
+    bottom:5px;
+}
+.circle3{
+    position:absolute;
+   
+    top: -270px;
+right: 0;
+    
+}
+.circle4{
+    right: 0px;
+    bottom:5px;
+    position:absolute;
+}
+@keyframes animation{
+    0%{
+        transform:rotateY(45deg);
+    }
+    /* 10%{
+        transform: rotate(60deg);
+    } */
+    25%{
+        transform: translateX(200px);
+    }
+    50%{
+        transform:translateY(100px);
+    }
+    75%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: translateY(-50%);
+    }
 }
 #accueil{
     display: grid;
     padding-top: 20px;
-     /* padding: 30px x ;  */
+     
     grid-template-columns: 50% 50%;
 }
 h1{
@@ -190,5 +233,52 @@ button{
    font-weight: bold;
    font-size: 0.9rem;
    border: none;
+}
+form{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+input{
+    transition: 1s ease-in-out;
+    width: 25%;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+input[type="text"]:active{
+    text-shadow: 3px 5px 2px green;
+    border-radius: 20px;
+}
+textarea{
+    width: 25%;
+    padding: 3px;
+    resize: none;
+    height: 90px;
+}
+.sen-form{
+    width: 25%;
+
+    background-color: var(--color4);
+    font-weight: 200;
+    transition: 1s ease-in-out;
+}
+.sen-form:hover{
+    background-color: var(--color4);
+border-radius: 20px;
+    transform: scale(0.9);
+}
+footer{
+    text-align: center;
+}
+@media screen and (max-width:1120px) {
+
+    input, textarea{
+        width: 50%;
+    }
+    .sen-form{
+        padding: 2px;
+        border-radius: 10px;
+    }
 }
 
