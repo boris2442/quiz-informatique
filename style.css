@@ -79,7 +79,21 @@ header ul li a:hover{
 li{
     list-style-type: none;
 }
+.animation-photo{
+   display: flex;
+   justify-content: space-around;
+   /* gap:10px; */
+        animation:animation linear 1s infinite
+    
+}
+.circle{
 
+    background-color: var(--color4);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  
+}
 #accueil{
     display: grid;
     padding-top: 20px;
