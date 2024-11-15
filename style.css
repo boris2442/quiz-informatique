@@ -79,6 +79,11 @@ header ul li a:hover{
 li{
     list-style-type: none;
 }
+#accueil p{
+    height: 200px;
+    width: 100%;
+    overflow: auto;
+}
 .animation-photo{
    display: flex;
    position:relative;
@@ -411,7 +416,21 @@ footer{
     text-align: center;
 }
 @media screen and (max-width:1120px) {
-
+body{
+   
+    font-size: 1.4rem;
+    margin: 0;
+}
+header{
+    width: 100%;
+    /* margin: 0;
+    padding: 0; */
+}
+#accueil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
     input, textarea{
         width: 50%;
     }
@@ -420,5 +439,18 @@ footer{
         width: 50%;
         border-radius: 10px;
     }
+}
+@media screen and (max-width:920px) {
+    *{
+        font-size: 1.4rem;
+        /* padding-left: 40px; */
+      
+    }
+}
+@media  screen and (max-width:1350px) {
+    *{
+        font-size: 1.4rem;
+    }
+    
 }
 
