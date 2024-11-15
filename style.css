@@ -213,7 +213,8 @@ h1:hover{
 .about-h2:hover{
     background-color: var(--color2);
     color:var(--color4);
-    transform: scale(1.2);
+    text-shadow: 10px -10px 1px var(--color3);
+    transform: scale(0.9);
 
 }
 .answ1{
@@ -223,6 +224,74 @@ h1:hover{
     display: flex;
 
     justify-content: space-around;
+}
+#quiz h2{
+    text-align: center;
+    background-color: var(--color4);
+    padding: 13px;
+    position: relative;
+    transition: 1s ease-in-out;
+    color:var(--color2);
+    border-radius: 15px;
+}
+#quiz h2::after{
+    content:"";
+    position:absolute;
+    height: 2px;
+    top: 50%;
+    font-weight: bold;
+    width: 50%;
+    background-color: var(--color2);
+}
+#quiz h2::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    top: 50%;
+   left:-150px;
+    /* right: 0; */
+    background-color: var(--color2);
+    width: 50%;
+}
+#quiz h2:hover{
+    background-color: var(--color2);
+    transform: scale(0.9);
+    text-shadow:10px -10px 1px var(--color3) ;
+    color:var(--color4)
+}
+.quiz-prog-h2{
+    text-align: center;
+    background-color: var(--color4);
+    position: relative;
+       transition: 1.5s ease-in-out;
+       color:var(--color2);
+       border-radius: 15px;
+    padding: 13px;
+   
+}
+.quiz-prog-h2::after{
+    content:"";
+    position: absolute;
+    height: 2px;
+    top: 50%;
+ background-color: var(--color2);
+  width: 50%;
+}
+.quiz-prog-h2::before{
+    content:"";
+    position:absolute;
+    height: 2px;
+    top: 50%;
+    left: -325px;
+    width: 50%;
+    background-color: var(--color2);
+}
+.quiz-prog-h2:hover{
+    background-color: var(--color2);
+    transform: scale(0.9);
+    text-shadow:10px -10px 1px var(--color3) ;
+    color:var(--color4)
+
 }
 button{
     background-color: var(--color1);
