@@ -293,6 +293,75 @@ h1:hover{
     color:var(--color4)
 
 }
+#bd h2{
+    text-align: center;
+    text-align: center;
+    background-color: var(--color4);
+    position: relative;
+       transition: 1.5s ease-in-out;
+       color:var(--color2);
+       border-radius: 15px;
+    padding: 13px;
+}
+#bd h2::after{
+    content:"";
+    position:absolute;
+    height: 2px;
+    width: 50%;
+    top: 50%;
+   background-color: var(--color2);
+}
+#bd h2::before{
+    content:"";
+    position:absolute;
+    height: 2px;
+    width: 50%;
+    top: 50%;
+    left: -280px;
+background-color: var(--color2);  
+}
+#bd h2:hover{
+    background-color: var(--color2);
+    transform: scale(0.9);
+    text-shadow:10px -10px 1px var(--color3) ;
+    color:var(--color4);
+
+}
+#contact h2{
+    text-align: center;
+    text-align: center;
+    background-color: var(--color4);
+    position: relative;
+    
+       transition: 1.5s ease-in-out;
+       color:var(--color2);
+       border-radius: 12px;
+    padding: 10px;
+}
+#contact h2::before{
+    content:"";
+    position:absolute;
+    height: 2px;
+    right:-45px;
+    width: 50%;
+    top: 50%;
+background-color: var(--color2);  
+}
+#contact h2::after{
+    content:"";
+    position:absolute;
+    height: 2px;
+    top: 50%;
+    width: 50%;
+    left: -45px;
+background-color: var(--color2);    
+}
+#contact h2:hover{
+    background-color: var(--color2);
+    transform: scale(0.9);
+    text-shadow:30px -10px 1px var(--color3)  ;
+    color:var(--color4);
+}
 button{
     background-color: var(--color1);
    margin: 10px;
@@ -337,6 +406,7 @@ textarea{
 border-radius: 20px;
     transform: scale(0.9);
 }
+
 footer{
     text-align: center;
 }
@@ -347,6 +417,7 @@ footer{
     }
     .sen-form{
         padding: 2px;
+        width: 50%;
         border-radius: 10px;
     }
 }
