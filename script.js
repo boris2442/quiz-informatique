@@ -14,7 +14,7 @@ btn1.addEventListener("click", ()=>{
 })
 const btn2=document.querySelector(".btn2");
 btn2.addEventListener("click", ()=>{
-    alert("bravo à vous! bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
    
   })
   const btn3=document.querySelector(".btn3");
@@ -39,7 +39,7 @@ button6.addEventListener("click", ()=>{
 })
 const button7=document.querySelector("#btn7");
 button7.addEventListener("click", ()=>{
-  alert("bravo à vous! bonne reponse");
+  alert("Bravo à vous! Bonne reponse");
 })
 const button8=document.querySelector("#btn8");
 button8.addEventListener("click", ()=>{
@@ -50,7 +50,7 @@ button8.addEventListener("click", ()=>{
 const answer3=document.querySelector(".answ3");
 const button11=document.querySelector("#btn11");
   button11.addEventListener("click", ()=>{
-alert("bravo à vous! bonne reponse")
+alert("Bravo à vous ! Bonne reponse")
   })
   const button9=document.querySelector("#btn9");
   button9.addEventListener("click",() =>{
@@ -64,6 +64,49 @@ alert("bravo à vous! bonne reponse")
   button12.addEventListener("click", ()=>{
     answer3.classList.toggle("ans3");
   })
+  //quatrieme question initiation
+  const answer4=document.querySelector(".answ4");
+  const button13=document.querySelector("#btn13");
+  button13.addEventListener("click",()=>{
+    answer4.classList.toggle("ans3")
+  })
+  const button14=document.querySelector("#btn14");
+  button14.addEventListener("click",()=>{
+    alert("Bravo a vous ! Bonne reponse");
+})
+const button15=document.querySelector("#btn15");
+  button15.addEventListener("click",()=>{
+    answer4.classList.toggle("ans3");
+  })
+  const button16=document.querySelector("#btn16");
+  button16.addEventListener("click",()=>{
+    answer4.classList.toggle("ans3");
+  })
+  //cinquieme reponse initiation
+  const answer5=document.querySelector(".answ5");
+const button17=document.querySelector("#btn17");
+button17.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+})
+
+const button18=document.querySelector("#btn18");
+  button18.addEventListener("click",()=>{
+  answer5.classList.toggle("ans3");
+  })
+const button19=document.querySelector("#btn19");
+  button19.addEventListener("click",()=>{
+  answer5.classList.toggle("ans3");
+  })
+const button20=document.querySelector("#btn20");
+  button20.addEventListener("click",()=>{
+  answer5.classList.toggle("ans3");
+  })
+
+//sixieme question initiation
+const answer6=document.querySelector("answ6");
+const button21=document.querySelector("#btn21");
+button21.classList
+
 
 
 
