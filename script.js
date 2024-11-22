@@ -113,9 +113,56 @@ const button22=document.querySelector("#btn22");
 button22.addEventListener("click", ()=>{
   alert("Bravo a vous ! Bonne reponse");
 })
+const button23=document.querySelector("#btn23");
+button23.addEventListener("click", ()=>{
+answer6.classList.toggle("ans3")
+})
+const button24=document.querySelector("#btn24");
+button24.addEventListener("click", ()=>{
+answer6.classList.toggle("ans3")
+})
+
+//septieme question de l'initiation
+
+const answer7=document.querySelector(".answ7");
+const button25=document.querySelector("#btn25");
+button25.addEventListener("click", ()=>{
+answer7.classList.toggle("ans3")
+})
+const button28=document.querySelector("#btn28");
+button28.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+})
+const button26=document.querySelector("#btn26");
+button26.addEventListener("click", ()=>{
+answer7.classList.toggle("ans3");
+})
+const button27=document.querySelector("#btn27");
+button27.addEventListener("click", ()=>{
+answer7.classList.toggle("ans3");
+})
+//huitieme question
 
 
 
+
+const answer8=document.querySelector(".answ8");
+const button29=document.querySelector("#btn29");
+button29.addEventListener("click", ()=>{
+answer8.classList.toggle("ans3");
+})
+const button32=document.querySelector("#btn32");
+button32.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+})
+const button31=document.querySelector("#btn31");
+button31.addEventListener("click", ()=>{
+answer8.classList.toggle("ans3");
+})
+const button30=document.querySelector("#btn30");
+button30.addEventListener("click", ()=>{
+answer8.classList.toggle("ans3");
+});
 
 
 
