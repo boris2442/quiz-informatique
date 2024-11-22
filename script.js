@@ -143,9 +143,6 @@ answer7.classList.toggle("ans3");
 })
 //huitieme question
 
-
-
-
 const answer8=document.querySelector(".answ8");
 const button29=document.querySelector("#btn29");
 button29.addEventListener("click", ()=>{
@@ -163,6 +160,67 @@ const button30=document.querySelector("#btn30");
 button30.addEventListener("click", ()=>{
 answer8.classList.toggle("ans3");
 });
+//neuvieme reponse initiation
+
+
+const answer9=document.querySelector(".answ9");
+const button33=document.querySelector("#btn33");
+button33.addEventListener("click", ()=>{
+answer9.classList.toggle("ans3");
+});
+const button36=document.querySelector("#btn36");
+button36.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button34=document.querySelector("#btn34");
+button34.addEventListener("click", ()=>{
+answer9.classList.toggle("ans3");
+});
+const button35=document.querySelector("#btn35");
+button35.addEventListener("click", ()=>{
+answer9.classList.toggle("ans3");
+});
+
+// dixieme reponse initiation
+const answer10=document.querySelector(".answ10");
+const button37=document.querySelector("#btn37");
+button37.addEventListener("click", ()=>{
+answer10.classList.toggle("ans3");
+});
+const button40=document.querySelector("#btn40");
+button40.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button38=document.querySelector("#btn38");
+button38.addEventListener("click", ()=>{
+answer10.classList.toggle("ans3");
+});
+const button39=document.querySelector("#btn39");
+button39.addEventListener("click", ()=>{
+answer10.classList.toggle("ans3");
+});
+
+// onzieme reponse initition
+
+const answer11=document.querySelector(".answ11");
+const button41=document.querySelector("#btn41");
+button41.addEventListener("click", ()=>{
+answer11.classList.toggle("ans3");
+});
+const button42=document.querySelector("#btn42");
+button42.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button43=document.querySelector("#btn43");
+button43.addEventListener("click", ()=>{
+answer11.classList.toggle("ans3");
+});
+const button44=document.querySelector("#btn44");
+button44.addEventListener("click", ()=>{
+answer11.classList.toggle("ans3");
+});
+
+// douzieme question
 
 
 
