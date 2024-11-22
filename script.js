@@ -41,4 +41,29 @@ const button7=document.querySelector("#btn7");
 button7.addEventListener("click", ()=>{
   alert("bravo à vous! bonne reponse");
 })
+const button8=document.querySelector("#btn8");
+button8.addEventListener("click", ()=>{
+  answer2.classList.toggle("ans2");
+})
+
+//  troisieme question initiation//
+const answer3=document.querySelector(".answ3");
+const button11=document.querySelector("#btn11");
+  button11.addEventListener("click", ()=>{
+alert("bravo à vous! bonne reponse")
+  })
+  const button9=document.querySelector("#btn9");
+  button9.addEventListener("click",() =>{
+   answer3.classList.toggle("ans3")
+  })
+  const button10=document.querySelector("#btn10");
+  button10.addEventListener("click", ()=>{
+    answer3.classList.toggle("ans3");
+  })
+  const button12=document.querySelector("#btn12");
+  button12.addEventListener("click", ()=>{
+    answer3.classList.toggle("ans3");
+  })
+
+
 

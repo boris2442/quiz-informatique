@@ -465,7 +465,7 @@ header{
 }
 .ans1{
     transition: 1s ease-in-out;
-    transform: scale(0.9px);
+    transform: rotateY(360deg);
    visibility: visible;
     color:var(--color2);
     padding-right: 5px;
@@ -481,7 +481,7 @@ header{
 }
 .ans2{
     transition: 1s ease-in-out;
-    transform: scale(0.9px);
+    transform: rotateY(360deg);
    visibility: visible;
     color:var(--color2);
     padding-right: 5px;
@@ -492,5 +492,20 @@ header{
     background-color: var(--color4);
     font-weight: 100;
 }
+.answ3{
+    visibility: hidden;
+}
 
-
+.ans3{
+    transition: 1s ease-in-out;
+    transform: rotateY(360deg);
+   visibility: visible;
+    color:var(--color2);
+    padding-right: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 3px var(--color3);
+    background-color: var(--color4);
+    font-weight: 100;
+}
