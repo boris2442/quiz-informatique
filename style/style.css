@@ -449,9 +449,9 @@ header{
 @media screen and (max-width:920px) {
     *{
         font-size: 1.4rem;
-        /* padding-left: 40px; */
-      
     }
+    
+      
 }
 @media  screen and (max-width:1350px) {
     *{
