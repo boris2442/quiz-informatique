@@ -419,3 +419,83 @@ const button83=document.querySelector("#btn83");
 button83.addEventListener("click", ()=>{
 answer21.classList.toggle("ans3");
 });
+
+// 22e question
+
+const answer22=document.querySelector(".answ22");
+const button85=document.querySelector("#btn85");
+button85.addEventListener("click", ()=>{
+answer22.classList.toggle("ans3");
+});
+const button88=document.querySelector("#btn88");
+button88.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button87=document.querySelector("#btn87");
+button87.addEventListener("click", ()=>{
+answer22.classList.toggle("ans3");
+});
+const button86=document.querySelector("#btn86");
+button86.addEventListener("click", ()=>{
+answer22.classList.toggle("ans3");
+});
+
+// 23e question
+
+const answer23=document.querySelector(".answ23");
+const button89=document.querySelector("#btn89");
+button89.addEventListener("click", ()=>{
+answer23.classList.toggle("ans3");
+});
+const button90=document.querySelector("#btn90");
+button90.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button91=document.querySelector("#btn91");
+button91.addEventListener("click", ()=>{
+answer23.classList.toggle("ans3");
+});
+const button92=document.querySelector("#btn92");
+button92.addEventListener("click", ()=>{
+answer23.classList.toggle("ans3");
+});
+
+// 24e question
+
+const answer24=document.querySelector(".answ24");
+const button94=document.querySelector("#btn94");
+button94.addEventListener("click", ()=>{
+answer24.classList.toggle("ans3");
+});
+const button93=document.querySelector("#btn93");
+button93.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button95=document.querySelector("#btn95");
+button95.addEventListener("click", ()=>{
+answer24.classList.toggle("ans3");
+});
+const button96=document.querySelector("#btn96");
+button96.addEventListener("click", ()=>{
+answer24.classList.toggle("ans3");
+});
+
+// 25e question
+
+const answer25=document.querySelector(".answ25");
+const button98=document.querySelector("#btn98");
+button98.addEventListener("click", ()=>{
+answer25.classList.toggle("ans3");
+});
+const button97=document.querySelector("#btn97");
+button97.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button99=document.querySelector("#btn99");
+button99.addEventListener("click", ()=>{
+answer25.classList.toggle("ans3");
+});
+const button100=document.querySelector("#btn100");
+button100.addEventListener("click", ()=>{
+answer25.classList.toggle("ans3");
+});
