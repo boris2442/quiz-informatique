@@ -222,5 +222,82 @@ answer11.classList.toggle("ans3");
 
 // douzieme question
 
+const answer12=document.querySelector(".answ12");
+const button46=document.querySelector("#btn46");
+button46.addEventListener("click", ()=>{
+answer12.classList.toggle("ans3");
+});
+const button45=document.querySelector("#btn45");
+button45.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button47=document.querySelector("#btn47");
+button47.addEventListener("click", ()=>{
+answer12.classList.toggle("ans3");
+});
+const button48=document.querySelector("#btn48");
+button48.addEventListener("click", ()=>{
+answer12.classList.toggle("ans3");
+});
 
 
+//treizieme question
+const answer13=document.querySelector(".answ13");
+const button49=document.querySelector("#btn49");
+button49.addEventListener("click", ()=>{
+answer13.classList.toggle("ans3");
+});
+const button51=document.querySelector("#btn51");
+button51.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button50=document.querySelector("#btn50");
+button50.addEventListener("click", ()=>{
+answer13.classList.toggle("ans3");
+});
+const button52=document.querySelector("#btn52");
+button52.addEventListener("click", ()=>{
+answer13.classList.toggle("ans3");
+});
+
+//quatorziem question
+
+const answer14=document.querySelector(".answ14");
+const button53=document.querySelector("#btn53");
+button53.addEventListener("click", ()=>{
+answer14.classList.toggle("ans3");
+});
+const button55=document.querySelector("#btn55");
+button55.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button54=document.querySelector("#btn54");
+button54.addEventListener("click", ()=>{
+answer14.classList.toggle("ans3");
+});
+const button56=document.querySelector("#btn56");
+button56.addEventListener("click", ()=>{
+answer14.classList.toggle("ans3");
+});
+
+//Quinzieme question
+
+const answer15=document.querySelector(".answ15");
+const button57=document.querySelector("#btn57");
+button57.addEventListener("click", ()=>{
+answer15.classList.toggle("ans3");
+});
+const button58=document.querySelector("#btn58");
+button58.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button59=document.querySelector("#btn59");
+button59.addEventListener("click", ()=>{
+answer15.classList.toggle("ans3");
+});
+const button60=document.querySelector("#btn60");
+button60.addEventListener("click", ()=>{
+answer15.classList.toggle("ans3");
+});
+
+//seizieme question
