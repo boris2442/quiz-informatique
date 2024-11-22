@@ -492,7 +492,7 @@ header{
     background-color: var(--color4);
     font-weight: 100;
 }
-.answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20{
+.answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20, .answ22, .answ23, .answ24, .answ25{
     visibility: hidden;
 }
 

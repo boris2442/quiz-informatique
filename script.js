@@ -301,3 +301,121 @@ answer15.classList.toggle("ans3");
 });
 
 //seizieme question
+
+const answer16=document.querySelector(".answ16");
+const button61=document.querySelector("#btn61");
+button61.addEventListener("click", ()=>{
+answer16.classList.toggle("ans3");
+});
+const button62=document.querySelector("#btn62");
+button62.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button63=document.querySelector("#btn63");
+button63.addEventListener("click", ()=>{
+answer16.classList.toggle("ans3");
+});
+const button64=document.querySelector("#btn64");
+button64.addEventListener("click", ()=>{
+answer16.classList.toggle("ans3");
+});
+// 17e question
+
+const answer17=document.querySelector(".answ17");
+const button65=document.querySelector("#btn65");
+button65.addEventListener("click", ()=>{
+answer17.classList.toggle("ans3");
+});
+const button66=document.querySelector("#btn66");
+button66.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button67=document.querySelector("#btn67");
+button67.addEventListener("click", ()=>{
+answer17.classList.toggle("ans3");
+});
+const button68=document.querySelector("#btn68");
+button68.addEventListener("click", ()=>{
+answer17.classList.toggle("ans3");
+});
+
+//19e question
+
+const answer18=document.querySelector(".answ18");
+const button69=document.querySelector("#btn69");
+button69.addEventListener("click", ()=>{
+answer18.classList.toggle("ans3");
+});
+const button71=document.querySelector("#btn71");
+button71.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button70=document.querySelector("#btn70");
+button70.addEventListener("click", ()=>{
+answer18.classList.toggle("ans3");
+});
+const button72=document.querySelector("#btn72");
+button72.addEventListener("click", ()=>{
+answer18.classList.toggle("ans3");
+});
+
+// 19e question
+
+const answer19=document.querySelector(".answ19");
+const button73=document.querySelector("#btn73");
+button73.addEventListener("click", ()=>{
+answer19.classList.toggle("ans3");
+});
+const button75=document.querySelector("#btn75");
+button75.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button76=document.querySelector("#btn76");
+button76.addEventListener("click", ()=>{
+answer19.classList.toggle("ans3");
+});
+const button74=document.querySelector("#btn74");
+button74.addEventListener("click", ()=>{
+answer19.classList.toggle("ans3");
+});
+
+
+// 20e question
+
+const answer20=document.querySelector(".answ20");
+const button77=document.querySelector("#btn77");
+button77.addEventListener("click", ()=>{
+answer20.classList.toggle("ans3");
+});
+const button78=document.querySelector("#btn78");
+button78.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button79=document.querySelector("#btn79");
+button79.addEventListener("click", ()=>{
+answer20.classList.toggle("ans3");
+});
+const button80=document.querySelector("#btn80");
+button80.addEventListener("click", ()=>{
+answer20.classList.toggle("ans3");
+});
+
+// 21e question
+
+const answer21=document.querySelector(".answ21");
+const button81=document.querySelector("#btn81");
+button81.addEventListener("click", ()=>{
+answer21.classList.toggle("ans3");
+});
+const button84=document.querySelector("#btn84");
+button84.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+});
+const button82=document.querySelector("#btn82");
+button82.addEventListener("click", ()=>{
+answer21.classList.toggle("ans3");
+});
+const button83=document.querySelector("#btn83");
+button83.addEventListener("click", ()=>{
+answer21.classList.toggle("ans3");
+});
