@@ -19,10 +19,26 @@ btn2.addEventListener("click", ()=>{
   })
   const btn3=document.querySelector(".btn3");
   btn3.addEventListener("click",() =>{
-     answ1.classList.toggle("ans1")
+     answ1.classList.toggle("ans1");
   
   })
   const btn4=document.querySelector(".btn4");
   btn4.addEventListener("click", ()=>{
     answ1.classList.toggle("ans1");
   })
+  //javascrpit reponse deuxieme qcm
+  const answer2=document.querySelector(".answ2");
+  const button5=document.querySelector("#btn5");
+ button5.addEventListener("click", ()=>{
+  answer2.classList.toggle("ans2");
+
+})
+const button6=document.querySelector("#btn6");
+button6.addEventListener("click", ()=>{
+ answer2.classList.toggle("ans2");
+})
+const button7=document.querySelector("#btn7");
+button7.addEventListener("click", ()=>{
+  alert("bravo à vous! bonne reponse");
+})
+
