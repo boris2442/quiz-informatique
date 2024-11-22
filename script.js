@@ -103,9 +103,18 @@ const button20=document.querySelector("#btn20");
   })
 
 //sixieme question initiation
-const answer6=document.querySelector("answ6");
+
+const answer6=document.querySelector(".answ6");
 const button21=document.querySelector("#btn21");
-button21.classList
+button21.addEventListener("click", ()=>{
+answer6.classList.toggle("ans3")
+})
+const button22=document.querySelector("#btn22");
+button22.addEventListener("click", ()=>{
+  alert("Bravo a vous ! Bonne reponse");
+})
+
+
 
 
 
