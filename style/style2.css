@@ -49,14 +49,17 @@ button:hover{
     font-weight: 100;
 }
 #reseaux{
-    height: 30vh;
+    /* height: 30vh; */
 
     position: relative;
 }
 .icone{
     display: flex;
-    align-items: left;
+    left: 0;
+    top: 50%;
+    /* margin: 0 auto; */
     position: fixed;
+    margin-left: 30px;
     gap:12px;
     flex-direction: column;
     justify-content: space-around;
@@ -64,32 +67,35 @@ button:hover{
 }
 i{
     cursor: pointer;
-  /* position: absolute; */
+font-size: 2rem;
+font-weight: 100;
+opacity:0.75;
+color:var(--color4);
   z-index: -1;
- 
-    transition: 1.5s ease-in-out;
+
+    transition: 1s ease-in-out;
 }
 i:hover{
     display: inline;
-    /* visibility: hidden; */
-    /* transform: rotateY(180deg); */
+   
+    transform: rotateY(180deg);
 }
-i:nth-child(1){
-    color:var(--color6);
+/* i:nth-child(1){
+    color:var(--color4);
     font-weight: 100;
     
-}
+} */
 i img{
     background-color: none;
 }
-i:nth-child(5){
-    color:var(--color4)
-}
-i:nth-child(4) img{
+/* i:nth-child(5){
+    color:var(--color1);
+} */
+/* i:nth-child(4) img{
     border-radius: 50%;
     margin-left: -8px;
     
-}
+} */
 #reseaux icone i{
     position: absolute;
 }
