@@ -140,7 +140,7 @@ button130.addEventListener("click", ()=>{
 
 // 8e question programmation
 
-const answer34=document.querySelector(".answ34");
+const answer34=document.querySelector(".answ340");
 const button131=document.querySelector("#btn131");
 button131.addEventListener("click", ()=>{
     answer34.classList.toggle("ans4")
@@ -160,41 +160,43 @@ button134.addEventListener("click", ()=>{
 
 // 9e question programmation
 
-// const answer35=document.querySelector(".answ35");
-// const button135=document.querySelector("#btn135");
-// button135.addEventListener("click", ()=>{
-//     answer35.classList.toggle("ans4")
-// })
-// const button137=document.querySelector("#btn137");
-// button137.addEventListener("click", ()=>{
-//     alert("Bravo a vous! Bonne reponse");
-// })
-// const button136=document.querySelector("#btn136");
-// button136.addEventListener("click", ()=>{
-//     answer35.classList.toggle("ans4");
-// })
-// const button138=document.querySelector("#btn138");
-// button138.addEventListener("click", ()=>{
-//     answer35.classList.toggle("ans4");
-// })
+const answer35=document.querySelector(".answ34");
+const button135=document.querySelector("#btn135");
+button135.addEventListener("click", ()=>{
+    answer35.classList.toggle("ans4")
+})
+const button137=document.querySelector("#btn137");
+button137.addEventListener("click", ()=>{
+    alert("Bravo a vous! Bonne reponse");
+})
+const button136=document.querySelector("#btn136");
+button136.addEventListener("click", ()=>{
+    answer35.classList.toggle("ans4");
+})
+const button138=document.querySelector("#btn138");
+button138.addEventListener("click", ()=>{
+    answer35.classList.toggle("ans4");
+})
 
 
 // 10e question programmation
 
-// const answer200=document.querySelector(".answ200");
-// const button139=document.querySelector("#btn139");
-// button139.addEventListener("click", ()=>{
-//     answer200.classList.toggle("ans4")
-// })
-// const button140=document.querySelector("#btn140");
-// button140.addEventListener("click", ()=>{
-//     alert("Bravo a vous! Bonne reponse");
-// })
-// const button141=document.querySelector("#btn141");
-// button141.addEventListener("click", ()=>{
-//     answer200.classList.toggle("ans4");
-// })
-// const button142=document.querySelector("#btn142");
-// button142.addEventListener("click", ()=>{
-//     answer200.classList.toggle("ans4");
-// })
+const answer200=document.querySelector(".answ200");
+const button139=document.querySelector("#btn139");
+button139.addEventListener("click", ()=>{
+    answer200.classList.toggle("ans4")
+})
+const button140=document.querySelector("#btn140");
+button140.addEventListener("click", ()=>{
+    alert("Bravo a vous! Bonne reponse");
+})
+const button141=document.querySelector("#btn141");
+button141.addEventListener("click", ()=>{
+    answer200.classList.toggle("ans4");
+})
+const button142=document.querySelector("#btn142");
+button142.addEventListener("click", ()=>{
+    answer200.classList.toggle("ans4");
+})
+
+// 11e question
