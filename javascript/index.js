@@ -294,9 +294,9 @@ button162.addEventListener("click", ()=>{
     answer40.classList.toggle("ans4");
 })
 
-//15e reponse programmation
+//16e reponse programmation
 
-const answer41=document.querySelector(".answ40");
+const answer41=document.querySelector(".answ41");
 const button163=document.querySelector("#btn163");
 const button164=document.querySelector("#btn164");
 const button165=document.querySelector("#btn165");
@@ -313,3 +313,63 @@ button165.addEventListener("click", ()=>{
 button166.addEventListener("click", ()=>{
     answer41.classList.toggle("ans4");
 })
+// 17e question javascript
+
+const answer42=document.querySelector(".answ42");
+const button167=document.querySelector("#btn167");
+const button168=document.querySelector("#btn168");
+const button169=document.querySelector("#btn169");
+const button170=document.querySelector("#btn170");
+button167.addEventListener("click", ()=>{
+    answer42.classList.toggle("ans4")
+})
+button169.addEventListener("click", ()=>{
+  alert("Bravo a vous! Bonne reponse")
+})
+button168.addEventListener("click", ()=>{
+    answer42.classList.toggle("ans4");
+})
+button170.addEventListener("click", ()=>{
+    answer42.classList.toggle("ans4");
+})
+
+// 18e question javascript
+
+const answer43=document.querySelector(".answ43");
+const button171=document.querySelector("#btn171");
+const button172=document.querySelector("#btn172");
+const button173=document.querySelector("#btn173");
+const button174=document.querySelector("#btn174");
+button171.addEventListener("click", ()=>{
+    answer43.classList.toggle("ans4")
+})
+button173.addEventListener("click", ()=>{
+  alert("Bravo a vous! Bonne reponse")
+})
+button172.addEventListener("click", ()=>{
+    answer43.classList.toggle("ans4");
+})
+button174.addEventListener("click", ()=>{
+    answer43.classList.toggle("ans4");
+})
+
+// 19e question javascript
+
+const answer44=document.querySelector(".answ44");
+const button175=document.querySelector("#btn175");
+const button176=document.querySelector("#btn176");
+const button177=document.querySelector("#btn177");
+const button178=document.querySelector("#btn178");
+button176.addEventListener("click", ()=>{
+    answer44.classList.toggle("ans4")
+})
+button175.addEventListener("click", ()=>{
+  alert("Bravo à vous! Bonne reponse")
+})
+button177.addEventListener("click", ()=>{
+    answer44.classList.toggle("ans4");
+})
+button178.addEventListener("click", ()=>{
+    answer44.classList.toggle("ans4");
+})
+
