@@ -19,13 +19,14 @@ main{
 
 }
 header{
-    /* position: fixed; */
+   
     width: 100%;
 }
 header ul{
     display: flex;
     height: 10vh;
     align-items: center;
+    box-shadow: 0px 6px 3px var(--color3);
     background-color:var(--color4) ;
     opacity:0.7;
     justify-content: space-around;
@@ -74,7 +75,8 @@ header ul li a:hover{
     padding:4px 6px;
     transform: scale(0.7);
     transform: translateX(-100px);
-    text-shadow:8px -10px 1.5px var(--color3) ;
+    
+    text-shadow:4px -12px 1px var(--color3) ;
     border:1px solid var(--color4);
     border-radius: 12px;
 }
@@ -372,9 +374,11 @@ button{
     background-color: var(--color1);
    margin: 10px;
    padding:  5px;
+   transition: 1s ease-in-out;
    cursor:pointer;
-   border-radius: 6px;
+   border-radius: 10px;
    color:var(--color2);
+   
    font-weight: 100;
    font-size: 0.9rem;
    border: none;
@@ -476,6 +480,7 @@ header{
 .answ1{
 
     visibility: hidden;
+    color:rgba(215, 13, 13, 0.687);
 }
 .ans1{
     transition: 1s ease-in-out;
@@ -492,6 +497,7 @@ header{
 }
 .answ2{
     visibility: hidden;
+    color:rgba(215, 13, 13, 0.687);
 }
 .ans2{
     transition: 1s ease-in-out;
