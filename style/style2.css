@@ -19,6 +19,7 @@ button:hover{
 #quiz div{
     display: grid;
     
+    grid-auto-flow: row;
     grid-template-columns: 1fr 1fr 1fr 1fr;
    
     ;
@@ -27,7 +28,9 @@ button:hover{
 }
 #quiz p{
     transition: 0.9s ease-in-out;
-    margin: 15px 40px 15px 15px ;
+
+    margin: 15px 40px 25px 25px ;
+    
 }
 #quiz p:hover{
     transform: scale(0.5);
@@ -81,17 +84,18 @@ i:hover{
     transform: rotateY(180deg);
 }
 .icon1{
-   color:green ;
+   color:var(--color8) ;
+   
 }
 .icon2{
     color:var(--color3);
 }
 .icon3{
-  color:rgb(45, 45, 235);  
+  color:var(--color7);  
   font-weight: 100;
 }
 .icon4{
-    color:rgb(217, 48, 37);
+    color:var(--color6);
     font-weight: 300;
 }
 /* i:nth-child(1){
@@ -99,17 +103,36 @@ i:hover{
     font-weight: 100;
     
 } */
-i img{
-    background-color: none;
-}
-/* i:nth-child(5){
-    color:var(--color1);
-} */
-/* i:nth-child(4) img{
-    border-radius: 50%;
-    margin-left: -8px;
-    
-} */
+
+
 #reseaux icone i{
     position: absolute;
 }
+@media media and (max-width:840px) {
+    #quiz div{
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media madia and (max-width:600px) {
+    /* #quiz div{
+        display: grid;
+       
+       
+    } */
+
+    #quiz div{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    #quiz div button{
+        width: 100%;
+    }
+}
+#quiz button{
+    margin-top: 25px;
+}
+

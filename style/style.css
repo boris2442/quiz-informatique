@@ -4,6 +4,10 @@
     --color4:blue;
     /* --color6:rgb(26, 157, 26); */
     --color3:black;
+    --color6:rgb(217, 48, 37);
+    --color7:rgb(45, 45, 235);  
+    --color8:rgb(5, 167, 5) ;
+   
 }
 
 
@@ -13,9 +17,8 @@
     box-sizing: border-box;
     font-family: cursive;
     list-style: none;
-}
-main{
-    overflow-x: auto;
+    main{
+        width: 100%;
     padding-left: 30px;
 
 }
@@ -34,7 +37,10 @@ header ul{
     padding: 20px;
 }
 
-body{
+body, html{
+    width: 100%;
+    overflow-x: hidden;
+   
     font-family: cursive;
     /* text-align: center; */
     margin: 0;
@@ -184,6 +190,7 @@ h1:hover{
 #accueil img{
     height: 250px;
     width: 100%;
+    border-radius: 8px;
     
 }
 #accueil p{
