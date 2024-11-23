@@ -1,6 +1,15 @@
 .answ26, .answ27, .answ28, .answ28, .answ29, .answ30, .answ31, .answ32, .answ33, .answ34, .answ35, .answ36,       .answ37, .answ38, .answ39, .answ200, .answ40, .answ41, .answ42, .answ340, .answ43, .answ44, .answ45, .answ46, .answ47, .answ48 {
     visibility: hidden;
+    font-weight: 100;
+    color:rgba(215, 13, 13, 0.687);
   
+}
+h4{
+    font-weight: 100;
+    font-size: 1rem;
+}
+p{
+    font-size: 1rem;
 }
 .ans4{
     transition: 1s ease-in-out;

@@ -40,7 +40,8 @@ body{
 }
 a{
     text-decoration: none;
-    font-size: 1.4rem;
+    font-weight: 100;
+    font-size: 1.1rem;
     color:var(--color2);
    
     font-weight: bolder;
@@ -152,7 +153,7 @@ right: 0;
 h1{
     background-color: var(--color4);
     /* display: inline; */
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     margin-right: 20px;
     text-align: center;
     transform: translateX(0);
@@ -182,10 +183,10 @@ h1:hover{
     
 }
 #accueil p{
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 #about p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .about-h2{
     text-align: center;
@@ -297,6 +298,7 @@ h1:hover{
     color:var(--color4)
 
 }
+
 #bd h2{
     text-align: center;
     text-align: center;
@@ -371,8 +373,9 @@ button{
    margin: 10px;
    padding:  5px;
    cursor:pointer;
+   border-radius: 6px;
    color:var(--color2);
-   font-weight: bold;
+   font-weight: 100;
    font-size: 0.9rem;
    border: none;
 }
@@ -506,6 +509,11 @@ header{
 .answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20, .answ22, .answ23, .answ24, .answ25, .answ21{
     visibility: hidden;
 }
+.answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20, .answ22, .answ23, .answ24, .answ25, .answ21{
+    font-weight: 100;
+    color:rgba(215, 13, 13, 0.687);
+}
+
 
 
 .ans3{
