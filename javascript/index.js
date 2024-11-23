@@ -373,3 +373,103 @@ button178.addEventListener("click", ()=>{
     answer44.classList.toggle("ans4");
 })
 
+// 20e question javascript
+
+const answer45=document.querySelector(".answ45");
+const button179=document.querySelector("#btn179");
+const button180=document.querySelector("#btn180");
+const button181=document.querySelector("#btn181");
+const button182=document.querySelector("#btn182");
+button179.addEventListener("click", ()=>{
+    answer45.classList.toggle("ans4")
+})
+button180.addEventListener("click", ()=>{
+  alert("Bravo à vous ! Bonne reponse")
+})
+button182.addEventListener("click", ()=>{
+    answer45.classList.toggle("ans4");
+})
+button181.addEventListener("click", ()=>{
+    answer45.classList.toggle("ans4");
+})
+
+// 21e question javascript
+
+const answer46=document.querySelector(".answ46");
+const button285=document.querySelector("#btn285");
+const button286=document.querySelector("#btn286");
+const button287=document.querySelector("#btn287");
+const button288=document.querySelector("#btn288");
+button285.addEventListener("click", ()=>{
+    answer46.classList.toggle("ans4")
+})
+button288.addEventListener("click", ()=>{
+  alert("Bravo à vous ! Bonne reponse")
+})
+button286.addEventListener("click", ()=>{
+    answer46.classList.toggle("ans4");
+})
+button287.addEventListener("click", ()=>{
+    answer46.classList.toggle("ans4");
+})
+
+// 22e question javascript
+
+const answer47=document.querySelector(".answ47");
+const button185=document.querySelector("#btn185");
+const button186=document.querySelector("#btn186");
+const button187=document.querySelector("#btn187");
+const button188=document.querySelector("#btn188");
+button185.addEventListener("click", ()=>{
+    answer47.classList.toggle("ans4")
+})
+button186.addEventListener("click", ()=>{
+  alert("Bravo à vous ! Bonne reponse")
+})
+button187.addEventListener("click", ()=>{
+    answer47.classList.toggle("ans4");
+})
+button188.addEventListener("click", ()=>{
+    answer47.classList.toggle("ans4");
+})
+
+// 23e question javascript
+const answer48=document.querySelector(".answ49");
+const button189=document.querySelector("#btn189");
+const button190=document.querySelector("#btn190");
+const button191=document.querySelector("#btn181");
+const button192=document.querySelector("#btn192");
+button191.addEventListener("click", ()=>{
+    answer48.classList.toggle("ans4")
+})
+button189.addEventListener("click", ()=>{
+  alert("Bravo à vous ! Bonne reponse")
+})
+button190.addEventListener("click", ()=>{
+    answer48.classList.toggle("ans4");
+})
+button192.addEventListener("click", ()=>{
+    answer48.classList.toggle("ans4");
+})
+
+// 24e question javascript
+// const answer49=document.querySelector(".answ49");
+// const button193=document.querySelector("#btn193");
+// const button194=document.querySelector("#btn194");
+// const button195=document.querySelector("#btn195");
+// const button196=document.querySelector("#btn196");
+// button191.addEventListener("click", ()=>{
+//     answer48.classList.toggle("ans4")
+// })
+// button189.addEventListener("click", ()=>{
+//   alert("Bravo à vous ! Bonne reponse")
+// })
+// button190.addEventListener("click", ()=>{
+//     answer48.classList.toggle("ans4");
+// })
+// button192.addEventListener("click", ()=>{
+//     answer48.classList.toggle("ans4");
+// })
+
+
+
