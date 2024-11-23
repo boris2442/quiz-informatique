@@ -135,7 +135,7 @@ button129.addEventListener("click", ()=>{
 })
 const button130=document.querySelector("#btn130");
 button130.addEventListener("click", ()=>{
-    answer33.classList.toggle("ans4");
+    answer32.classList.toggle("ans4");
 })
 
 // 8e question programmation
