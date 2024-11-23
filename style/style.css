@@ -2,7 +2,7 @@
     --color1:rgb(0, 145, 255);
     --color2:#fff;
     --color4:blue;
-    /* --color6:rgb(26, 157, 26); */
+  
     --color3:black;
     --color6:rgb(217, 48, 37);
     --color7:rgb(45, 45, 235);  
@@ -98,10 +98,11 @@ li{
 }
 .animation-photo{
    display: flex;
+   animation:animation linear 5s infinite;
+
    position:relative;
-   justify-content: space-around;
- animation:animation linear 5s infinite;
-    
+   /* justify-content: space-around; */
+   
 }
 .circle{
 
@@ -138,9 +139,7 @@ right: 0;
     0%{
         transform:rotateY(45deg);
     }
-    /* 10%{
-        transform: rotate(60deg);
-    } */
+    
     25%{
         transform: translateX(200px);
     }

@@ -98,11 +98,6 @@ i:hover{
     color:var(--color6);
     font-weight: 300;
 }
-/* i:nth-child(1){
-    color:var(--color4);
-    font-weight: 100;
-    
-} */
 
 
 #reseaux icone i{
@@ -117,12 +112,7 @@ i:hover{
     
 }
 @media madia and (max-width:600px) {
-    /* #quiz div{
-        display: grid;
-       
-       
-    } */
-
+ 
     #quiz div{
         flex-direction: column;
         align-items: center;
