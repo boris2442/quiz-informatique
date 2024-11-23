@@ -80,6 +80,20 @@ i:hover{
    
     transform: rotateY(180deg);
 }
+.icon1{
+   color:green ;
+}
+.icon2{
+    color:var(--color3);
+}
+.icon3{
+  color:rgb(45, 45, 235);  
+  font-weight: 100;
+}
+.icon4{
+    color:rgb(217, 48, 37);
+    font-weight: 300;
+}
 /* i:nth-child(1){
     color:var(--color4);
     font-weight: 100;
