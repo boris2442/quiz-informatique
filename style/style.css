@@ -163,7 +163,7 @@ right: 0;
 }
 h1{
     background-color: var(--color4);
-    /* display: inline; */
+   
     font-size: 1.5rem;
     margin-right: 20px;
     text-align: center;
@@ -268,7 +268,7 @@ h1:hover{
     height: 2px;
     top: 50%;
    left:-150px;
-    /* right: 0; */
+   
     background-color: var(--color2);
     width: 50%;
 }
@@ -276,7 +276,7 @@ h1:hover{
     background-color: var(--color2);
     transform: scale(0.9);
     text-shadow:10px -10px 1px var(--color3) ;
-    color:var(--color4)
+    color:var(--color4);
 }
 .quiz-prog-h2{
     text-align: center;
@@ -309,8 +309,8 @@ h1:hover{
 .quiz-prog-h2:hover{
     background-color: var(--color2);
     transform: scale(0.9);
-    text-shadow:10px -10px 1px var(--color3) ;
-    color:var(--color4)
+    text-shadow:10px -10px 1px var(--color3);
+    color:var(--color4);
 
 }
 
@@ -413,7 +413,7 @@ input{
     padding: 3px;
 }
 input[type="text"]:active{
-    text-shadow: 3px 5px 2px green;
+    
     border-radius: 20px;
 }
 textarea{
@@ -447,7 +447,7 @@ img:hover{
     transform: rotateY(180deg);
  
 }
-@media screen and (max-width:1120px) {
+@media screen and ( max-width:1120px ) {
 body{
    
     font-size: 1.4rem;
@@ -455,8 +455,7 @@ body{
 }
 header{
     width: 100%;
-    /* margin: 0;
-    padding: 0; */
+    
 }
 #accueil{
     display: flex;

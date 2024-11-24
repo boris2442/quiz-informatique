@@ -126,3 +126,14 @@ i:hover{
     margin-top: 25px;
 }
 
+/* partie reserver aux bases de donnees */
+#bd div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#bd h4{
+    padding: 20px 0;
+}
+#bd p{
+    visibility: hidden;
+}
