@@ -320,21 +320,57 @@ button252.addEventListener("click", ()=>{
 button251.addEventListener("click", ()=>{
     answer67.classList.toggle("ans4");    
 })
-//dixseptieme reponse
+//dixhuitieme reponse
 const answer68=document.querySelector(".answ68");
 const button258=document.querySelector("#btn258");
 const button257=document.querySelector("#btn257");
 const button256=document.querySelector("#btn256");
 const button255=document.querySelector("#btn255");
-button253.addEventListener("click", ()=>{
+button258.addEventListener("click", ()=>{
     alert("Bravo à vous! Bonne reponse ") ;
 })
-button254.addEventListener("click", ()=>{
-    answer67.classList.toggle("ans4");    
+button255.addEventListener("click", ()=>{
+    answer68.classList.toggle("ans4");    
 })
-button252.addEventListener("click", ()=>{
-    answer67.classList.toggle("ans4");    
+button256.addEventListener("click", ()=>{
+    answer68.classList.toggle("ans4");    
 })
-button251.addEventListener("click", ()=>{
-    answer67.classList.toggle("ans4");    
+button257.addEventListener("click", ()=>{
+    answer68.classList.toggle("ans4");    
+})
+//dixhuitieme reponse
+const answer69=document.querySelector(".answ69");
+const button259=document.querySelector("#btn259");
+const button260=document.querySelector("#btn260");
+const button261=document.querySelector("#btn261");
+const button262=document.querySelector("#btn262");
+button259.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse ") ;
+})
+button260.addEventListener("click", ()=>{
+    answer69.classList.toggle("ans4");    
+})
+button261.addEventListener("click", ()=>{
+    answer69.classList.toggle("ans4");    
+})
+button262.addEventListener("click", ()=>{
+    answer69.classList.toggle("ans4");    
+})
+//vigntieme reponse
+const answer70=document.querySelector(".answ70");
+const button263=document.querySelector("#btn263");
+const button264=document.querySelector("#btn264");
+const button265=document.querySelector("#btn265");
+const button266=document.querySelector("#btn266");
+button266.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse ") ;
+})
+button265.addEventListener("click", ()=>{
+    answer70.classList.toggle("ans4");    
+})
+button264.addEventListener("click", ()=>{
+    answer70.classList.toggle("ans4");    
+})
+button263.addEventListener("click", ()=>{
+    answer70.classList.toggle("ans4");    
 })
