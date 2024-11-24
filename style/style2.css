@@ -134,6 +134,60 @@ i:hover{
 #bd h4{
     padding: 20px 0;
 }
-#bd p{
+.answ51, .answ52, .answ53, .answ54, .answ55, .answ56, .answ57, .answ58, .answ59, .answ60, .answ61, .answ62, .answ63, .answ64, .answ65, .answ66, .answ67, .answ68, .answ69, .answ70, .answ71, .answ72, .answ73, .answ74, .answ75{
     visibility: hidden;
+    margin: 20px 30px 0 0;
+}
+.ans1{
+    transition: 1s ease-in-out;
+    transform: rotateY(360deg);
+   visibility: visible;
+    color:var(--color2);
+    padding-right: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 3px var(--color3);
+    background-color: var(--color4);
+    font-weight: 100;
+}
+.answ2{
+    visibility: hidden;
+    color:rgba(215, 13, 13, 0.687);
+}
+.ans2{
+    transition: 1s ease-in-out;
+    transform: rotateY(360deg);
+   visibility: visible;
+    color:var(--color2);
+    padding-right: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 3px var(--color3);
+    background-color: var(--color4);
+    font-weight: 100;
+}
+.answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20, .answ22, .answ23, .answ24, .answ25, .answ21{
+    visibility: hidden;
+}
+.answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20, .answ22, .answ23, .answ24, .answ25, .answ21{
+    font-weight: 100;
+    color:rgba(215, 13, 13, 0.687);
+}
+
+
+
+.ans4{
+    transition: 1s ease-in-out;
+    transform: rotateY(360deg);
+   visibility: visible;
+    color:var(--color2);
+    padding-right: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 3px var(--color3);
+    background-color: var(--color4);
+    font-weight: 100;
 }
