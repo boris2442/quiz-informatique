@@ -428,3 +428,38 @@ button277.addEventListener("click", ()=>{
 button278.addEventListener("click", ()=>{
     answer73.classList.toggle("ans4");    
 })
+//vight-quatrieme reponse
+const answer74=document.querySelector(".answ74");
+const button279=document.querySelector("#btn279");
+const button280=document.querySelector("#btn280");
+const button281=document.querySelector("#btn281");
+const button282=document.querySelector("#btn282");
+button282.addEventListener("click", ()=>{
+   alert("Bravo à vous! Bonne reponse ");
+})
+button279.addEventListener("click", ()=>{
+    answer74.classList.toggle("ans4");    
+})
+button280.addEventListener("click", ()=>{
+    answer74.classList.toggle("ans4");    
+})
+button281.addEventListener("click", ()=>{
+    answer74.classList.toggle("ans4");    
+})
+const answer75=document.querySelector(".answ75");
+const button286=document.querySelector("#btn286");
+const button285=document.querySelector("#btn285");
+const button284=document.querySelector("#btn284");
+const button283=document.querySelector("#btn283");
+button286.addEventListener("click", ()=>{
+   alert("Bravo à vous! Bonne reponse ");
+})
+button285.addEventListener("click", ()=>{
+    answer75.classList.toggle("ans4");    
+})
+button284.addEventListener("click", ()=>{
+    answer75.classList.toggle("ans4");    
+})
+button283.addEventListener("click", ()=>{
+    answer75.classList.toggle("ans4");    
+})
