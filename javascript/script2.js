@@ -211,3 +211,64 @@ button229.addEventListener("click", ()=>{
 button230.addEventListener("click", ()=>{
     answer61.classList.toggle("ans4");  
 })
+
+//douzieme qreponse javascript
+const answer62=document.querySelector(".answ62");
+const button231=document.querySelector("#btn231");
+const button232=document.querySelector("#btn232");
+const button233=document.querySelector("#btn233");
+const button234=document.querySelector("#btn234");
+button231.addEventListener("click", ()=>{
+    answer62.classList.toggle("ans4");  
+})
+button232.addEventListener("click", ()=>{
+   alert("Bravo à vous! Bonne reponse ") 
+})
+button233.addEventListener("click", ()=>{
+    answer62.classList.toggle("ans4");  
+})
+button234.addEventListener("click", ()=>{
+    answer62.classList.toggle("ans4");  
+})
+//treizieme reponse
+const answer63=document.querySelector(".answ63");
+const button235=document.querySelector("#btn235");
+const button236=document.querySelector("#btn236");
+const button237=document.querySelector("#btn237");
+const button238=document.querySelector("#btn238");
+button236.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse ") ;
+ })
+ button235.addEventListener("click", ()=>{
+    answer63.classList.toggle("ans4");  
+})
+button237.addEventListener("click", ()=>{
+    answer63.classList.toggle("ans4");  
+})
+button238.addEventListener("click", ()=>{
+    answer63.classList.toggle("ans4");  
+})
+//quatorzieme question
+const answer64=document.querySelector(".answ64");
+const button239=document.querySelector("#btn239");
+const button240=document.querySelector("#btn240");
+const button241=document.querySelector("#btn241");
+const button242=document.querySelector("#btn242");
+button239.addEventListener("click", ()=>{
+    answer64.classList.toggle("ans4");    
+})
+button240.addEventListener("click", ()=>{
+    answer64.classList.toggle("ans4");    
+})
+button241.addEventListener("click", ()=>{
+    answer64.classList.toggle("ans4");    
+})
+button242.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse ") ;
+})
+//quinzieme reponse
+const answer65=document.querySelector(".answ65");
+const button243=document.querySelector("#btn243");
+const button244=document.querySelector("#btn244");
+const button245=document.querySelector("#btn245");
+const button246=document.querySelector("#btn246");
