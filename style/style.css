@@ -42,12 +42,12 @@ body, html{
     overflow-x: hidden;
    
     font-family: cursive;
-    /* text-align: center; */
+    
     margin: 0;
     padding: 0;
 }
 a{
-    /* target:blank; */
+    
     text-decoration: none;
     font-weight: 100;
     font-size: 1.1rem;
@@ -79,7 +79,7 @@ header ul li a::before{
 header ul li a:hover{
     background-color: var(--color2);
     color:var(--color4);
-    /* margin: 15px; */
+    
     padding:4px 6px;
     transform: scale(0.7);
     transform: translateX(-100px);
@@ -98,10 +98,10 @@ li{
 }
 .animation-photo{
    display: flex;
-   animation:animation linear 5s infinite;
+   animation:animate 5s linear infinite;
 
    position:relative;
-   /* justify-content: space-around; */
+  
    
 }
 .circle{
@@ -135,7 +135,9 @@ right: 0;
     bottom:5px;
     position:absolute;
 }
-@keyframes animation{
+@keyframes animate {
+    
+
     0%{
         transform:rotateY(45deg);
     }
