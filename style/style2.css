@@ -136,6 +136,8 @@ i:hover{
 }
 .answ51, .answ52, .answ53, .answ54, .answ55, .answ56, .answ57, .answ58, .answ59, .answ60, .answ61, .answ62, .answ63, .answ64, .answ65, .answ66, .answ67, .answ68, .answ69, .answ70, .answ71, .answ72, .answ73, .answ74, .answ75{
     visibility: hidden;
+    font-weight: 100;
+    color:rgba(215, 13, 13, 0.687);
     margin: 20px 30px 0 0;
 }
 .ans1{

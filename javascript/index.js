@@ -7,7 +7,7 @@ button105.addEventListener("click", ()=>{
 })
 const button106=document.querySelector("#btn106");
 button106.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button107=document.querySelector("#btn107");
 button107.addEventListener("click", ()=>{
@@ -27,7 +27,7 @@ button109.addEventListener("click", ()=>{
 })
 const button110=document.querySelector("#btn110");
 button110.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button111=document.querySelector("#btn111");
 button111.addEventListener("click", ()=>{
@@ -47,7 +47,7 @@ button113.addEventListener("click", ()=>{
 })
 const button115=document.querySelector("#btn115");
 button115.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button114=document.querySelector("#btn114");
 button114.addEventListener("click", ()=>{
@@ -67,7 +67,7 @@ button501.addEventListener("click", ()=>{
 })
 const button503=document.querySelector("#btn503");
 button503.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button502=document.querySelector("#btn502");
 button502.addEventListener("click", ()=>{
@@ -87,7 +87,7 @@ button122.addEventListener("click", ()=>{
 })
 const button121=document.querySelector("#btn121");
 button121.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button120=document.querySelector("#btn120");
 button120.addEventListener("click", ()=>{
@@ -107,7 +107,7 @@ button123.addEventListener("click", ()=>{
 })
 const button125=document.querySelector("#btn125");
 button125.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button124=document.querySelector("#btn124");
 button124.addEventListener("click", ()=>{
@@ -127,7 +127,7 @@ button127.addEventListener("click", ()=>{
 })
 const button128=document.querySelector("#btn128");
 button128.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button129=document.querySelector("#btn129");
 button129.addEventListener("click", ()=>{
@@ -147,7 +147,7 @@ button131.addEventListener("click", ()=>{
 })
 const button133=document.querySelector("#btn133");
 button133.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button132=document.querySelector("#btn132");
 button132.addEventListener("click", ()=>{
@@ -167,7 +167,7 @@ button135.addEventListener("click", ()=>{
 })
 const button137=document.querySelector("#btn137");
 button137.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button136=document.querySelector("#btn136");
 button136.addEventListener("click", ()=>{
@@ -188,7 +188,7 @@ button139.addEventListener("click", ()=>{
 })
 const button140=document.querySelector("#btn140");
 button140.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse");
+    alert("Bravo à vous! Bonne reponse");
 })
 const button141=document.querySelector("#btn141");
 button141.addEventListener("click", ()=>{
@@ -216,7 +216,7 @@ button145.addEventListener("click", ()=>{
 })
 
 button146.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse  ")
+    alert("Bravo à vous! Bonne reponse  ")
 })
 //12e question
 
@@ -226,7 +226,7 @@ const button148=document.querySelector("#btn148");
 const button149=document.querySelector("#btn149");
 const button150=document.querySelector("#btn150");
 button149.addEventListener("click", ()=>{
-    alert("Bravo a vous! Bonne reponse  ");
+    alert("Bravo à vous! Bonne reponse  ");
 })
 button147.addEventListener("click", ()=>{
     answer37.classList.toggle("ans4");
@@ -247,7 +247,7 @@ button151.addEventListener("click", ()=>{
     answer38.classList.toggle("ans4")
 })
 button152.addEventListener("click", ()=>{
-  alert("Bravo a vous! Bonne reponse")
+  alert("Bravo à vous! Bonne reponse")
 })
 button153.addEventListener("click", ()=>{
     answer38.classList.toggle("ans4");
@@ -265,7 +265,7 @@ button155.addEventListener("click", ()=>{
     answer39.classList.toggle("ans4")
 })
 button156.addEventListener("click", ()=>{
-  alert("Bravo a vous! Bonne reponse")
+  alert("Bravo à vous! Bonne reponse")
 })
 button157.addEventListener("click", ()=>{
     answer39.classList.toggle("ans4");
@@ -285,7 +285,7 @@ button159.addEventListener("click", ()=>{
     answer40.classList.toggle("ans4")
 })
 button160.addEventListener("click", ()=>{
-  alert("Bravo a vous! Bonne reponse")
+  alert("Bravo à vous! Bonne reponse")
 })
 button161.addEventListener("click", ()=>{
     answer40.classList.toggle("ans4");
@@ -305,7 +305,7 @@ button163.addEventListener("click", ()=>{
     answer41.classList.toggle("ans4")
 })
 button164.addEventListener("click", ()=>{
-  alert("Bravo a vous! Bonne reponse")
+  alert("Bravo à vous! Bonne reponse")
 })
 button165.addEventListener("click", ()=>{
     answer41.classList.toggle("ans4");
@@ -324,7 +324,7 @@ button167.addEventListener("click", ()=>{
     answer42.classList.toggle("ans4")
 })
 button169.addEventListener("click", ()=>{
-  alert("Bravo a vous! Bonne reponse")
+  alert("Bravo à vous! Bonne reponse")
 })
 button168.addEventListener("click", ()=>{
     answer42.classList.toggle("ans4");
@@ -344,7 +344,7 @@ button171.addEventListener("click", ()=>{
     answer43.classList.toggle("ans4")
 })
 button173.addEventListener("click", ()=>{
-  alert("Bravo a vous! Bonne reponse")
+  alert("Bravo à vous! Bonne reponse")
 })
 button172.addEventListener("click", ()=>{
     answer43.classList.toggle("ans4");
