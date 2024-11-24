@@ -284,3 +284,57 @@ button245.addEventListener("click", ()=>{
 button246.addEventListener("click", ()=>{
     answer65.classList.toggle("ans4");    
 })
+//sixieme reponse
+const answer66=document.querySelector(".answ66");
+const button247=document.querySelector("#btn247");
+const button248=document.querySelector("#btn248");
+const button249=document.querySelector("#btn249");
+const button250=document.querySelector("#btn250");
+button250.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse ") ;
+})
+button247.addEventListener("click", ()=>{
+    answer66.classList.toggle("ans4");    
+})
+button248.addEventListener("click", ()=>{
+    answer66.classList.toggle("ans4");    
+})
+button249.addEventListener("click", ()=>{
+    answer66.classList.toggle("ans4");    
+})
+//dixseptieme reponse
+const answer67=document.querySelector(".answ67");
+const button251=document.querySelector("#btn251");
+const button252=document.querySelector("#btn252");
+const button253=document.querySelector("#btn253");
+const button254=document.querySelector("#btn254");
+button253.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse ") ;
+})
+button254.addEventListener("click", ()=>{
+    answer67.classList.toggle("ans4");    
+})
+button252.addEventListener("click", ()=>{
+    answer67.classList.toggle("ans4");    
+})
+button251.addEventListener("click", ()=>{
+    answer67.classList.toggle("ans4");    
+})
+//dixseptieme reponse
+const answer68=document.querySelector(".answ68");
+const button258=document.querySelector("#btn258");
+const button257=document.querySelector("#btn257");
+const button256=document.querySelector("#btn256");
+const button255=document.querySelector("#btn255");
+button253.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse ") ;
+})
+button254.addEventListener("click", ()=>{
+    answer67.classList.toggle("ans4");    
+})
+button252.addEventListener("click", ()=>{
+    answer67.classList.toggle("ans4");    
+})
+button251.addEventListener("click", ()=>{
+    answer67.classList.toggle("ans4");    
+})
