@@ -272,3 +272,15 @@ const button243=document.querySelector("#btn243");
 const button244=document.querySelector("#btn244");
 const button245=document.querySelector("#btn245");
 const button246=document.querySelector("#btn246");
+button244.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse ") ;
+})
+button243.addEventListener("click", ()=>{
+    answer65.classList.toggle("ans4");    
+})
+button245.addEventListener("click", ()=>{
+    answer65.classList.toggle("ans4");    
+})
+button246.addEventListener("click", ()=>{
+    answer65.classList.toggle("ans4");    
+})
