@@ -447,19 +447,19 @@ button281.addEventListener("click", ()=>{
     answer74.classList.toggle("ans4");    
 })
 const answer75=document.querySelector(".answ75");
-const button286=document.querySelector("#btn286");
-const button285=document.querySelector("#btn285");
+const button486=document.querySelector("#btn486");
+const button485=document.querySelector("#btn485");
 const button284=document.querySelector("#btn284");
 const button283=document.querySelector("#btn283");
-button286.addEventListener("click", ()=>{
+button284.addEventListener("click", ()=>{
    alert("Bravo à vous! Bonne reponse ");
 })
-button285.addEventListener("click", ()=>{
-    answer75.classList.toggle("ans4");    
-})
-button284.addEventListener("click", ()=>{
-    answer75.classList.toggle("ans4");    
-})
 button283.addEventListener("click", ()=>{
-    answer75.classList.toggle("ans4");    
+    answer75.classList.toggle("ans4");
+})
+button485.addEventListener("click", ()=>{
+    answer75.classList.toggle("ans4");
+})
+button486.addEventListener("click", ()=>{
+    answer75.classList.toggle("ans4");
 })
