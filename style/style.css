@@ -478,13 +478,13 @@ header{
     
       
 }
-@media  screen and (max-width:1350px) {
+@media  screen and ( max-width:1350px ) {
     *{
         font-size: 1.4rem;
     }
    
 }
-@media screen and (max-width:550px) {
+@media screen and ( max-width:550px ) {
     .none{
         display: none;
     }

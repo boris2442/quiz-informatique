@@ -84,24 +84,130 @@ button206.addEventListener("click", ()=>{
     answer55.classList.toggle("ans4");
  })
 
- //the fifth answer of bases of donnees
+ //the sixth answer of bases of donnees
 
-const answer56=document.querySelector(".answ55");
+const answer56=document.querySelector(".answ56");
 const button207=document.querySelector("#btn207");
 const button208=document.querySelector("#btn208");
 const button209=document.querySelector("#btn209");
 const button210=document.querySelector("#btn210");
 
-button204.addEventListener("click", ()=>{
-answer55.classList.toggle("ans4");
+button207.addEventListener("click", ()=>{
+answer56.classList.toggle("ans4");
 })
-button203.addEventListener("click", ()=>{
+button210.addEventListener("click", ()=>{
     alert("Bravo à vous! Bonne reponse")
 })
-button205.addEventListener("click", ()=>{
-    answer55.classList.toggle("ans4");
+button208.addEventListener("click", ()=>{
+    answer56.classList.toggle("ans4");
  })
-button206.addEventListener("click", ()=>{
+button209.addEventListener("click", ()=>{
 
-    answer55.classList.toggle("ans4");
+    answer56.classList.toggle("ans4");
  })
+
+ //the seventh answer of bases of donnees
+
+const answer57=document.querySelector(".answ57");
+const button211=document.querySelector("#btn211");
+const button212=document.querySelector("#btn212");
+const button213=document.querySelector("#btn213");
+const button214=document.querySelector("#btn214");
+
+button212.addEventListener("click", ()=>{
+answer57.classList.toggle("ans4");
+})
+button213.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse")
+})
+button211.addEventListener("click", ()=>{
+    answer57.classList.toggle("ans4");
+ })
+button214.addEventListener("click", ()=>{
+
+    answer57.classList.toggle("ans4");
+ })
+//  eight question answer of reseaux 
+const answer58=document.querySelector(".answ58");
+const button215=document.querySelector("#btn215");
+const button216=document.querySelector("#btn216");
+const button217=document.querySelector("#btn217");
+const button218=document.querySelector("#btn218");
+button215.addEventListener("click", ()=>{
+    answer58.classList.toggle("ans4");
+    
+})
+button216.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse");
+    
+})
+button217.addEventListener("click", ()=>{
+    answer58.classList.toggle("ans4");
+})
+button218.addEventListener("click", ()=>{
+    answer58.classList.toggle("ans4");
+    
+})
+
+//nighth answer 
+const answer59=document.querySelector(".answ59");
+const button219=document.querySelector("#btn219");
+const button220=document.querySelector("#btn220");
+const button221=document.querySelector("#btn221");
+const button222=document.querySelector("#btn222");
+button219.addEventListener("click", ()=>{
+    
+        answer59.classList.toggle("ans4");
+   
+})
+button220.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse");
+})
+button221.addEventListener("click", ()=>{
+    
+    answer59.classList.toggle("ans4");
+
+})
+button222.addEventListener("click", ()=>{
+    
+    answer59.classList.toggle("ans4");
+
+})
+//dixieme reponse 
+const answer60=document.querySelector(".answ60");
+const button223=document.querySelector("#btn223");
+const button224=document.querySelector("#btn224");
+const button225=document.querySelector("#btn225");
+const button226=document.querySelector("#btn226");
+button223.addEventListener("click", ()=>{
+    answer60.classList.toggle("ans4");
+})
+
+button224.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse");
+})
+button225.addEventListener("click", ()=>{
+    answer60.classList.toggle("ans4");  
+})
+button226.addEventListener("click", ()=>{
+    answer60.classList.toggle("ans4");  
+})
+
+//onzieme question
+const answer61=document.querySelector(".answ61");
+const button227=document.querySelector("#btn227");
+const button228=document.querySelector("#btn228");
+const button229=document.querySelector("#btn229");
+const button230=document.querySelector("#btn230");
+button227.addEventListener("click", ()=>{
+    answer61.classList.toggle("ans4");   
+})
+button228.addEventListener("click", ()=>{
+    alert("Bravo à vous! Bonne reponse");
+})
+button229.addEventListener("click", ()=>{
+    answer61.classList.toggle("ans4");  
+})
+button230.addEventListener("click", ()=>{
+    answer61.classList.toggle("ans4");  
+})
