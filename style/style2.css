@@ -199,3 +199,9 @@ i:hover{
     background-color: var(--color4);
     font-weight: 100;
 }
+
+/* partie programmation display grid */
+#quizprog div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
