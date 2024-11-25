@@ -165,15 +165,25 @@ h1{
     background-color: var(--color4);
    
     font-size: 1.5rem;
+    font-weight: 300;
     margin-right: 20px;
     text-align: center;
     transform: translateX(0);
     transition: 1s ease-in-out;
     border-radius: 15px;
-   
+   animation: anim 1s linear infinite;
     padding: 5px 20px;
     color:var(--color2);
     z-index: -1;
+}
+@keyframes anim{
+    50%{
+        transform: scaleX(0.6);
+    }
+    /* 100%{
+        transform: rotateY(420deg);
+    } */
+   
 }
 
 h1:hover{
