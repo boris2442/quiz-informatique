@@ -169,7 +169,7 @@ h1{
     margin-right: 20px;
     text-align: center;
     transform: translateX(0);
-    transition: 1s ease-in-out;
+    transition: 1.3s ease-in-out;
     border-radius: 15px;
    animation: anim 1s linear infinite;
     padding: 5px 20px;
@@ -177,12 +177,10 @@ h1{
     z-index: -1;
 }
 @keyframes anim{
-    50%{
+    100%{
         transform: scaleX(0.6);
     }
-    /* 100%{
-        transform: rotateY(420deg);
-    } */
+    
    
 }
 
@@ -542,8 +540,6 @@ header{
     
     color:rgba(215, 13, 13, 0.687);
 }
-/* .answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20, .answ22, .answ23, .answ24, .answ25, .answ21{
-} */
 
 
 

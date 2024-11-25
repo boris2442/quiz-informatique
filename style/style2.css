@@ -52,7 +52,7 @@ button:hover{
     font-weight: 100;
 }
 #reseaux{
-    /* height: 30vh; */
+   
 
     position: relative;
 }
@@ -60,7 +60,7 @@ button:hover{
     display: flex;
     left: 0;
     top: 50%;
-    /* margin: 0 auto; */
+    
     position: fixed;
     margin-left: 30px;
     gap:12px;
@@ -105,9 +105,7 @@ i:hover{
 }
 @media media and (max-width:840px) {
     #quiz div{
-        /* display: grid;
-        grid-auto-flow: row;
-        grid-template-columns: 1fr 1fr; */
+       
         display: flex;
         gap:20px;
         flex-wrap: wrap;
@@ -123,7 +121,7 @@ i:hover{
     #quiz div{
         flex-direction: column;
         display: flex;
-        /* align-items: center; */
+       
         margin: 0;
     }
     #quiz div button{
