@@ -181,10 +181,10 @@ i:hover{
     color:rgba(215, 13, 13, 0.687);
     font-weight: 100;
 }
-.answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20, .answ22, .answ23, .answ24, .answ25, .answ21:hover{
+/* .answ3, .answ4, .answ5, .answ6, .answ7, .answ8, .answ9, .answ10, .answ11, .answ12, .answ13, .answ14, .answ15, .answ16, .answ17, .answ18, .answ19, .answ20, .answ22, .answ23, .answ24, .answ25, .answ21:hover{
 
-    /* transform: scaleX(0.8); */
-}
+    transform: scaleX(0.8);
+} */
 
 
 
@@ -208,6 +208,9 @@ i:hover{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 #quizprog p{
-    text-align: center;
-    display: flex;
+    margin: 20px 40px 20px 0;
 }
+ #quizprog p:hover{
+    transform: scaleX(0.3);
+  color:transparent;
+ }
