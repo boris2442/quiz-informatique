@@ -413,7 +413,7 @@ input{
     transition: 1s ease-in-out;
     width: 450px;
     border: 1px solid none;
-    border-radius: 5px;
+    border-radius: 5.5px;
     font-size: 1rem;
     flex-wrap: wrap;
     padding: 3px;
@@ -426,7 +426,7 @@ textarea{
     width: 450px;
     padding: 3px;
     resize: none;
-    border-radius: 5px;
+    border-radius: 5.5px;
     font-size: 1rem;
     height: 150px;
 }
