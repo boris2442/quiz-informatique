@@ -439,7 +439,8 @@ textarea{
 }
 .sen-form{
     width: 450px;
-
+padding: 19px 5px;
+/* padding: 20px; */
     background-color: var(--color4);
     font-weight: 200;
     transition: 1s ease-in-out;
