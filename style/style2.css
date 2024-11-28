@@ -51,11 +51,11 @@ button:hover{
     background-color: var(--color4);
     font-weight: 100;
 }
-#reseaux{
+/* #reseaux{
    
 
     position: relative;
-}
+} */
 .icone{
     display: flex;
     left: 0;
@@ -225,8 +225,8 @@ footer p{
     font-size: 1.2rem;
 }
 
-#quiz div button{
-    padding: 13px 0;
+#quiz div button, #quizprog div button, #bd div button{
+    padding: 13px 5px;
 }
 #accueil{
     padding-top: 100px;
