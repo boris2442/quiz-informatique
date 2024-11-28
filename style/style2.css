@@ -84,19 +84,28 @@ i:hover{
     transform: rotateY(180deg);
 }
 .icon1{
-   color:var(--color8) ;
+     background-color: var(--color10); 
+    color: #FFFFFF; 
+   font-weight: 900;
+   border: none;
+   border-radius: 50%;
    
 }
 .icon2{
     color:var(--color3);
+    font-weight: 900;
 }
 .icon3{
   color:var(--color7);  
-  font-weight: 100;
+  font-weight: 900;
 }
 .icon4{
-    color:var(--color6);
-    font-weight: 300;
+    color:var(--color9);
+    font-weight: 900;
+}
+.con5{
+color:var(--color4);
+font-weight: 900;
 }
 
 
