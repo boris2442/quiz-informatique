@@ -224,3 +224,6 @@ footer p{
     padding-top: 20px;
     font-size: 1.2rem;
 }
+#quiz div button{
+    padding: 13px 0;
+}
