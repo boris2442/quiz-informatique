@@ -223,3 +223,8 @@ font-weight: 900;
     transform: scaleX(0.3);
   color:transparent;
  }
+footer p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 1.2rem;
+}

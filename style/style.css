@@ -444,6 +444,7 @@ textarea{
 .sen-form:hover{
     background-color: var(--color4);
 border-radius: 20px;
+background-color: var(--color3);
     transform: scale(0.9);
 }
 
