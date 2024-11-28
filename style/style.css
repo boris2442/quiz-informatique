@@ -420,7 +420,7 @@ input{
     border-radius: 5.5px;
     font-size: 1rem;
     flex-wrap: wrap;
-    padding: 3px;
+    padding: 13px;
 }
 input[type="text"]:active{
     
@@ -428,7 +428,7 @@ input[type="text"]:active{
 }
 textarea{
     width: 450px;
-    padding: 3px;
+    padding: 13px;
     resize: none;
     border-radius: 5.5px;
     font-size: 1rem;
