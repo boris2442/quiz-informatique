@@ -165,9 +165,11 @@ right: 0;
 }
 h1{
     background-color: var(--color4);
-   
+        font-family: "Parisienne", serif;
+        font-weight: 400;
+        font-style: normal;
     font-size: 1.5rem;
-    font-weight: 300;
+   
     margin-right: 20px;
     text-align: center;
     transform: translateX(0);
