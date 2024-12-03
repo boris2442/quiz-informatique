@@ -504,4 +504,6 @@ new Typewriter(title, {
   loop:true
 })
 .typeString("Bienvenue chez Quiz Informatique")
+.deleteAll()
+.typeString("Le lieu de l'apprentissage idéal")
 .start();
