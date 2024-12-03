@@ -3,7 +3,7 @@
 const answer26=document.querySelector(".answ26");
 const button105=document.querySelector("#btn105");
 button105.addEventListener("click", ()=>{
-    answer26.classList.toggle("ans4")
+    answer26.classList.toggle("ans4");
 })
 const button106=document.querySelector("#btn106");
 button106.addEventListener("click", ()=>{
