@@ -499,6 +499,13 @@ const button100=document.querySelector("#btn100");
 button100.addEventListener("click", ()=>{
 answer25.classList.toggle("ans4");
 });
+
+
+
+/*    */
+
+
+
 const title=document.querySelector("h1")
 new Typewriter(title, {
   loop:true
