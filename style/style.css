@@ -21,6 +21,15 @@
     font-family: 'Parkinsans', cursive;
     list-style: none;
 }
+body, html{
+    width: 100%;
+    overflow-x: hidden;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+}
 img{
     transition: .5s ease-in-out;
 }
@@ -33,32 +42,31 @@ img:hover{
 }
 header{
    z-index: 2;
-    width: 100%;
+   box-shadow: 0px 1px 3px var(--color3);
+   background-color:var(--color4) ;
+   padding-left: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 10vh;
 }
 header ul{
     display: flex;
-    height: 10vh;
     align-items: center;
-    box-shadow: 0px 1px 3px var(--color3);
-    background-color:var(--color4) ;
+    /* box-shadow: 0px 1px 3px var(--color3);
+    background-color:var(--color4) ; */
     opacity:0.7;
     z-index: 2;
     width: 100%;
-    position: fixed;
-    justify-content: space-around;
-    padding: 20px;
+    gap: 20px;
+   justify-content: space-around;
+    /* padding: 20px; */
 }
 
-body, html{
-    width: 100%;
-    overflow-x: hidden;
-   
-    font-family: cursive;
-    
-    margin: 0;
-    padding: 0;
-}
-a{
+
+ a{
     
     text-decoration: none;
     font-weight: 100;

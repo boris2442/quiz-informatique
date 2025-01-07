@@ -231,3 +231,21 @@ footer p{
 #accueil{
     padding-top: 100px;
 }
+
+header{
+    /* position: relative; */
+}
+header div{
+
+    /* display: none; */
+}
+header  i{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+font-size: 1.2rem;
+    color:var(--color2);
+
+}
