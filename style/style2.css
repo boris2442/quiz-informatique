@@ -232,13 +232,7 @@ footer p{
     padding-top: 100px;
 }
 
-header{
-    /* position: relative; */
-}
-header div{
 
-    /* display: none; */
-}
 header  i{
     position: absolute;
     right: 20px;
@@ -249,3 +243,24 @@ font-size: 1.2rem;
     color:var(--color2);
 
 }
+
+
+/* Pour les navigateurs WebKit (Chrome, Edge, Safari) */
+
+body::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #333; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #fff; 
+    border-radius: 10px; 
+    border: 3px solid #000; 
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #e0e0e0; 
+  } 
+   
